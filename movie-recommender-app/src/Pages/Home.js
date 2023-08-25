@@ -6,7 +6,7 @@ import MovieCard from "./Components/MovieCard";
 import { useEffect, useState } from "react";
 
 const Home = () => {
-    const apiKey = "api_key=b97316ed479ee4226afefc88d1792909";
+    const apiKey = "api_key=569bec4b3f8874595c2611698daa27c3";
     const [list, setList] = useState([]);
     const [homeGenreList, setHomeGenreList] = useState([{}]);
     const [selectedGenres, setSelectedGenres] = useState([]);
