@@ -8,7 +8,7 @@ import Footer from "./Components/Footer";
 
 const SearchResult = () => {
     const params = useParams();
-    const apiKey = "api_key=b97316ed479ee4226afefc88d1792909";
+    const apiKey = "api_key=569bec4b3f8874595c2611698daa27c3";
     const inputValue = params.id; // retrieving the searched movie name
     const [searchedMovie, setSearchedMovie] = useState({});
     const [recommendedMovies, setRecommendedMovies] = useState([{}]);
